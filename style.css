@@ -1,9 +1,33 @@
 body {
-  background: #c53826;
+  background: #cb2113;
   color: #fff;
+  font: italic small-caps bold 20px/24px impact;
 }
-body h1 {
+body header {
   background: url('logo.png') 0 0 / contain no-repeat;
-  height: 200px;
+  display: flex;
+  height: 240px;
+  justify-content: center;
   width: 200px;
+}
+
+body header h1 {
+  align-self: flex-end;
+  background: #630506;
+  border-radius: 0.1em;
+  clip-path: polygon(0 0, 90% 0, 100% 50%, 90% 100%, 0 100%);
+  color: white;
+  padding: 0.2em 0.5em 0.2em 0.3em;
+}
+
+button, input {
+  background: #fff;
+  color: #000;
+  border-radius: 14px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: #630506 5px 5px 5px;
 }

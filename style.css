@@ -1,0 +1,9 @@
+body {
+  background: #c53826;
+  color: #fff;
+}
+body h1 {
+  background: url('logo.png') 0 0 / contain no-repeat;
+  height: 200px;
+  width: 200px;
+}
